@@ -1,0 +1,22 @@
+div {
+    text-align: center;
+    margin: 0 20% 1% 20%;
+}
+
+button {
+    background-color: #17a2b8b3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #0069d9c7;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 20% 1% 20%;
+    background-color: #dc354552;
+    padding: 10px;
+}

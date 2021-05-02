@@ -1,0 +1,8 @@
+<div>
+    <p>DC movies component here!</p>
+    <div *ngFor="let movie of movies; let i = index">
+        <button type="button" class="btn btn-primary btn-lg btn-block" [routerLink]="movie.id" [state]="movie">
+            {{movie.name}}
+        </button>
+    </div>
+</div>

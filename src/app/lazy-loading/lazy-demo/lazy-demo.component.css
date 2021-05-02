@@ -1,0 +1,42 @@
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    margin: 0 20% 1% 20%;
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.block{
+    display:inline-block;
+    padding:30px 50px;
+    background:#000;
+  }
+  .flash-me {
+    color:#fff;
+    font-size:40px;
+    -webkit-animation: flash linear 1.7s infinite;
+    animation: flash linear 1.7s infinite;
+  }
+  
+  @-webkit-keyframes flash {
+    0% { opacity: 0; } 
+    80% { opacity: 1; color:#fff; } 
+    83% { opacity: 0; color:#fff; } 
+    86% { opacity: 1; color:#fff;}  
+    89% { opacity: 0} 
+    92% { opacity: 1; color:#fff;} 
+    95% { opacity: 0; color:#fff;}
+    100% { opacity: 1; color:#fff;}
+  }
+  @keyframes flash {
+    0% { opacity: 0; } 
+    80% { opacity: 1; color:#fff; } 
+    83% { opacity: 0; color:#fff; } 
+    86% { opacity: 1; color:#fff;}  
+    89% { opacity: 0} 
+    92% { opacity: 1; color:#fff;} 
+    95% { opacity: 0; color:#fff;}
+    100% { opacity: 1; color:#fff;}
+  }
